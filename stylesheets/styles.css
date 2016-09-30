@@ -11,8 +11,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
+article, aside, canvas, details, embed, figure, figcaption, footer, 
+, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
@@ -29,7 +29,7 @@ body {
   padding:10px 50px 0 0;
   font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 14px;
-	color: #232323;
+	color: #feffff /*#232323*/;
 	background-color: #FBFAF7;
 	margin: 0;
 	line-height: 1.8em;
@@ -215,7 +215,7 @@ td {
 /* Header */
 
 header {
-	background-color: #171717;
+	background-color: #003a4d /*#171717*/;
 	color: #FDFDFB;
   width:170px;
   float:left;
